@@ -2,7 +2,7 @@ function getInfo() {
     const locationName = document.getElementById("location");
     const accessToken = document.getElementById("token");
 
-fetch('https://api.weatherstack.com/current?access_key='+accessToken.value+'&query='+locationName.value+'')
+fetch('http://api.weatherstack.com/current?access_key='+accessToken.value+'&query='+locationName.value+'')
 .then(response => response.json())
 // .then(data => console.log(data))
 .then(data => {
