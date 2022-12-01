@@ -1,0 +1,258 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+#div1{
+    position: absolute;
+    width: 1728px;
+    height: 837px;
+    background-color: #000000;
+    color: #f3f3f3;
+}
+#div2{
+    /* position: relative; */
+    width: 1728px;
+    height: 2334px;
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid black;
+}
+h1{
+    font: Inter;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 121.02px;
+    text-align: center;
+    
+}
+#location{
+    position: relative;
+    width: 1372px;
+    height: 72px;
+    left: 145px;
+    /* margin-top: 302px; */ 
+    border: 2px solid #ffffff;
+    color: #f3f3f3;
+    background-color: black;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+#token{
+    position: absolute;
+    width: 1372px;
+    height: 72px;
+    left: 145px;
+    /* margin-top: 302px; */
+    border: 2px solid #ffffff;
+    color: #f3f3f3;
+    background-color: #000000;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+#submit{
+    position: absolute;
+    width: 260.75px;
+    height: 58px;
+    left: 146px;
+    top: 549px;
+    background: #FFFFFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+h2{
+    /* position: absolute;
+    width: 912px;
+    height: 160px;
+    left: 62px;
+    top: 941px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 121px;
+
+    color: #000000; */
+    margin-top: 941px;
+    margin-left: 62px;
+    font-family: Inter;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 121px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+ 
+}
+#div3{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1585px;
+    height: 1120px;
+    left: 62px;
+    top: 1136px;
+
+    border: 2px solid #000000;
+
+    
+}
+#locations{
+    height: 74px;
+    width: 669.4574584960938px;
+    margin-left: 116px;
+    margin-top: 1192px;
+    border-radius: nullpx;
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 61px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+#Lat{
+    height: 74px;
+    width: 669.4574584960938px;
+    margin-left: 116px;
+    margin-top: 1313px;
+    border-radius: nullpx;
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 61px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+#Lon{
+    height: 74px;
+    width: 669.4574584960938px;
+    margin-left: 116px;
+    margin-top: 1192px;
+    border-radius: nullpx;
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 61px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+#TimeZone{
+    height: 74px;
+    width: 669.4574584960938px;
+    margin-left: 116px;
+    margin-top: 1410px;
+    border-radius: nullpx;
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 61px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+#WindSpeed{
+    height: 74px;
+    width: 669.4574584960938px;
+    margin-left: 116px;
+    margin-top: 1519px;
+    border-radius: nullpx;
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 61px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+#Pressure{
+    height: 74px;
+    width: 669.4574584960938px;
+    margin-left: 116px;
+    margin-top: 1622px;
+    border-radius: nullpx;
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 61px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+#Humidity{
+    height: 74px;
+    width: 669.4574584960938px;
+    margin-left: 116px;
+    margin-top: 1725px;
+    border-radius: nullpx;
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 61px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+#WindDirection{
+    height: 74px;
+    width: 669.4574584960938px;
+    margin-left: 116px;
+    margin-top: 1828px;
+    border-radius: nullpx;
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 61px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+#UVIndex{
+    height: 74px;
+    width: 669.4574584960938px;
+    margin-left: 116px;
+    margin-top: 1937px;
+    border-radius: nullpx;
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 61px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+#FeelsLike{
+    height: 74px;
+    width: 669.4574584960938px;
+    margin-left: 116px;
+    margin-top: 2040px;
+    border-radius: nullpx;
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 61px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
